@@ -1,0 +1,89 @@
+/* style.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Orbitron', sans-serif;
+  background: linear-gradient(135deg, #0f0f0f, #1e1e1e);
+  color: #f0f0f0;
+  line-height: 1.6;
+}
+
+header {
+  background: #ffaa00;
+  color: #000;
+  padding: 2rem;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 3rem;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background: #111;
+  padding: 1rem;
+}
+
+nav a {
+  color: #ffaa00;
+  margin: 0 1rem;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+section {
+  padding: 4rem 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+}
+
+.member {
+  background: #222;
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.member h3 {
+  color: #ffaa00;
+}
+
+footer {
+  background: #111;
+  color: #888;
+  text-align: center;
+  padding: 2rem 1rem;
+  font-size: 0.9rem;
+}
+
+.social a {
+  color: #ffaa00;
+  margin: 0 0.5rem;
+  text-decoration: none;
+}
+
+.vision {
+  font-size: 1.3rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
