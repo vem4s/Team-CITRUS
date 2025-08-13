@@ -36,10 +36,10 @@ const playersWithRole = output.map(player => ({
 }));
 
 fs.writeFileSync(
-  "../members.json",
+  "./TMIOmembers.json",
   JSON.stringify(playersWithRole, null, 2), // null, 2 for pretty formatting
   "utf-8"
 );
 
-console.log("playersWithRole saved to ../members.json");
+console.log("playersWithRole saved to ./TMIOmembers.json");
 
